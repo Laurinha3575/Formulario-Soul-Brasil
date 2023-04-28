@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<title>Formulário</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="soulBrasil.css">
+	</head>
+	<body>
+		<header>
+			<h1>SOUL BRASIL</h1>
+		</header>
+		<main>
+			<form>
+				<h2>Venha fazer seu cadastro:</h2>
+
+				<h3>Dados pessoais</h3>
+				<label>Nome completo:</label><br>
+				<input type="text" name="nome" size="40" required><br>
+				<label>RG:</label><br>
+				<input type="text" name="rg" size="20" required><br>
+				<label>CPF:</label><br>
+				<input type="text" name="cpf" size="20" required><br>
+				<label>Data de nacsimento:</label><br>
+				<input type="date" name="data de nacsimento" size="20" required><br>
+				
+				<h3>Dados para contato:</h3>
+				<label>Endereço:</label><br>
+				<input type="text" name="end" size="40" required><br>
+				<label>Bairro:</label><br>
+				<input type="text" name="bairro" size="20" required><br>
+				<label>Cidade:</label><br>
+				<input type="text" name="Cidade" size="20" required><br>
+				<label>Estado:</label><br>
+                <select name="estado" required>
+                	<option selected value="sp">SP</option>
+                	<option value="sp">MG</option>
+                	<option value="sp">ES</option>
+                	<option value="sp">RJ</option>
+                </select><br>
+
+                <label>Telefone para contato:</label>
+                <input type="tel" name="telefone" size="18" required><br>
+                <label>E-mail:</label>
+                <input type="email" name="email" size="40" required><br>
+                <hr>
+
+                <h3>Formação:</h3>
+                <input type="text" name="escola" size="40" required><br>
+                <label>Categoria</label><br>
+                <input type="radio" name="categoria" value="1">
+                <label>Dança</label><br>
+                <input type="radio" name="categoria" value="2">
+                <label>Teatro</label><br>
+                <input type="radio" name="categoria" value="3">
+                <label>Música</label><br>
+                <input type="radio" name="categoria" value="4">
+                <label>Pintura</label><br>
+                <input type="radio" name="categoria" value="5">
+                <label>Circense</label><br>
+                <input type="radio" name="categoria" value="6">
+                <label>Cinema</label><br>
+                <input type="radio" name="categoria" value="7">
+                <label>Escultura</label><br>
+             
+                <label>Descrição das habilidades:</label><br>
+                <textarea cols="70" rows="5"></textarea><br>
+
+                <input type="submit" name="btenviar" value="ENVIAR">
+
+            </form>
+        </main>
+    </body>
+</html>
